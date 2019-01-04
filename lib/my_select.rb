@@ -5,6 +5,7 @@ def my_select(collection)
   newArray = []
   while i < collection.length
   newElems = yield collection[i]
+  if newElems == true
   newArray << newElems
   i = i + 1
 end
