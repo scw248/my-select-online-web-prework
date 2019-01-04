@@ -7,6 +7,7 @@ def my_select(collection)
   newElems = yield collection[i]
   if newElems == true
   newArray << newElems
+end
   i = i + 1
 end
   newArray
